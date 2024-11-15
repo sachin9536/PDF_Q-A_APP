@@ -80,7 +80,7 @@ This application is designed to handle questions and answers based on PDF docume
      ```
    - Install required Python packages:
      ```bash
-     pip install -r backend/requirements.txt
+     pip install -r requirements.txt
      ```
 
 3. **Set Up Environment Variables**
