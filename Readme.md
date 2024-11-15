@@ -41,7 +41,7 @@ This application is designed to handle questions and answers based on PDF docume
 ### System Components
 
 1. **React Frontend**: 
-   - Provides a user interface for uploading PDFs, asking questions, and viewing answers.
+   - Provides a user interface for uploading PDFs, asking questions, and viewing answers and also to continue the past conversations.
    
 2. **FastAPI Backend**:
    - Handles RESTful API requests, document storage, and NLP processing.
@@ -60,7 +60,7 @@ This application is designed to handle questions and answers based on PDF docume
 ### Prerequisites
 
 - **Node.js** (for the frontend)
-- **Python 3.7+** (for the backend)
+- **Python 3.9+** (for the backend)
 - **FAISS** (for embedding search)
 - **Google Generative AI API Key**
 
@@ -86,7 +86,7 @@ This application is designed to handle questions and answers based on PDF docume
 3. **Set Up Environment Variables**
    - Create a `.env` file in the `backend/` directory and add your Google Generative AI API key:
      ```plaintext
-     GOOGLE_API_KEY=your_google_api_key_here
+     GOOGLE_API_KEY=your_google_api_key_here/gemini api key here
      ```
 
 4. **Install Frontend Dependencies**
